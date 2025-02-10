@@ -74,7 +74,7 @@
                         <ColumnDefinition Width="10"></ColumnDefinition>
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
-                    <TextBox x:Name="otp1" GotFocus="otp_GotFocus" PreviewKeyUp="otp1_PreviewKeyUp" Grid.Column="0" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="20" MaxLength="1"></TextBox>
+                    <TextBox x:Name="otp1" GotFocus="otp_GotFocus" PreviewKeyDown="otp1_PreviewKeyDown" Grid.Column="0" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="20" MaxLength="1"></TextBox>
                     <TextBox x:Name="otp2" GotFocus="otp_GotFocus" PreviewKeyUp="otp2_PreviewKeyUp" Grid.Column="2" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="20" MaxLength="1"></TextBox>
                     <TextBox x:Name="otp3" GotFocus="otp_GotFocus" PreviewKeyUp="otp3_PreviewKeyUp" Grid.Column="4" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="20" MaxLength="1"></TextBox>
                     <TextBox x:Name="otp4" GotFocus="otp_GotFocus" PreviewKeyUp="otp4_PreviewKeyUp" Grid.Column="6" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="20" MaxLength="1"></TextBox>

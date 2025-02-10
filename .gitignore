@@ -263,3 +263,4 @@ __pycache__/
 /Build/Test
 /Build/Tools
 /Beanfun/LocaleRemulator/LRProc.dll
+/.vscode/settings.json
